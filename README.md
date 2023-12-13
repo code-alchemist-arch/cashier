@@ -1,38 +1,3 @@
-<h1 align=center>
-	laravel-cashier-stripe-connect
-</h1>
- 
-<p align="center">
-	<a href="https://packagist.org/packages/expdev07/laravel-cashier-stripe-connect"><img src="https://img.shields.io/packagist/dt/expdev07/laravel-cashier-stripe-connect" alt="Total Downloads"></a>
-	<a href="https://packagist.org/packages/expdev07/laravel-cashier-stripe-connect"><img src="https://img.shields.io/packagist/v/expdev07/laravel-cashier-stripe-connect" alt="Latest Stable Version"></a>
-	<a href="https://packagist.org/packages/expdev07/laravel-cashier-stripe-connect"><img src="https://img.shields.io/packagist/l/expdev07/laravel-cashier-stripe-connect" alt="License"></a>
-</p>
-
-> ## Newer Package Available
-> A more comprehensive package is now available, built upon this package so can be upgraded to from this package, it offers multi-model, multi-tenancy support, UUID support and the following features:
-> * Multi Model support - Previously only supported the User model, now any model can have the Connect Billable trait added to it and immediately inherit functionality.
-> * Tenancy for Laravel Support (Multi Tenant SaaS Plugin)
-> * Manage connected account onboarding
-> * Direct Charges
-> * Destination Charges
-> * Connected account customer management (Direct Customers)
-> * Connected account payment method management
-> * Connected account subscriptions ( Direct Subscriptions )
-> * Connected account product & price management
-> * Connect Webhook Support (On behalf of connected accounts)
-> * Connected Account Apple Pay Domain Registering
->  
-> ### [Click here to access the new package](https://github.com/l4nos/laravel-cashier-stripe-connect)
-> As a result of the new package, this package will no longer be maintained.
-
-<p>
-    <a href='https://ko-fi.com/C1C510DUQ' target='_blank'>
-	<img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-    </a>
-</p>
-
-> 💲 Adds Stripe Connect functionality to Laravel's main billing package, Cashier. Simply works as a drop-in on top of Cashier, with no extra configuration.
-
 ## Installation
 
 1. Enable Stripe Connect in your [dashboard settings](https://dashboard.stripe.com/settings).
@@ -170,17 +135,3 @@ $user->transferToStripeAccount(1000);
 $user->payoutStripeAccount(500, Date::now()->addWeek());
 
 ```
-
-## License
-
-Please refer to [LICENSE.md](https://github.com/ExpDev07/laravel-cashier-stripe-connect/blob/main/LICENSE) for this project's license.
-
-## Contributors
-
-This list only contains some of the most notable contributors. For the full list, refer to [GitHub's contributors graph](https://github.com/ExpDev07/laravel-cashier-stripe-connect/graphs/contributors).
-* ExpDev07 (Marius) - creator and maintainer.
-* Haytam Bakouane [(hbakouane)](https://github.com/hbakouane) - contributor.
-
-## Thanks to
-
-[Taylor Otwell](https://twitter.com/taylorotwell) for his amazing framework and [all the contributors of Cashier](https://github.com/laravel/cashier-stripe/graphs/contributors).
